@@ -1,0 +1,213 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*  sgared style */
+.text-primary{
+  color: #FD6E0A;
+}
+
+.daek-2{
+  color: #474747;
+}
+
+.btn-primary{
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 7px;
+  border: none;
+  
+}
+
+.about, .bg{
+  background-color: #FFF8F3;
+}
+
+
+
+/* nav styles */
+
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+
+.nav-title{
+  font-weight:800;
+  font-size: 45px;
+
+}
+
+nav ul{
+  display: flex;
+align-items: center;
+}
+
+
+
+
+
+nav ul li {
+  text-decoration: none;
+list-style: none;
+  font-size: 20px;
+  margin-right: 51px ;
+
+}
+
+nav li a{
+text-decoration: none;
+}
+
+/* baner */
+
+.banner{
+display: flex;
+justify-content: space-between;
+margin: 0 35px 0 200px;
+}
+
+
+.banner-content{
+  max-width: 580px;
+
+}
+
+
+.banner-gt{
+  font-size: 45px;
+  font-weight: 600;
+}
+banner-title{
+  font-weight: bold;
+  font-size: 85px;
+
+}
+
+.banner-profile-pick{
+  width: 590px;
+}
+
+/* heder */
+.header{
+  background-image: url('../images/developer.png'), url('../images/header_bg.png');
+  background-repeat: no-repeat ;
+  background-position: top left,bottom right;
+}
+
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin: 130px 230px ;
+}
+
+.main{
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+.item-description{
+font-weight: 600;
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+  .text-center{
+    text-align: center;
+  }
+
+  .section-dsctiption{
+    margin: 0 200px;
+  color: #757575;
+
+  }
+
+  .skill-container{
+    display: flex;
+    gap: 24px;
+    margin: 50px 230px 50px 250px;
+  }
+
+  .skill{
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0px 6px 50px 0px  #FFF8F3;
+  }
+
+  /* resume-contaner */
+.section-title{
+  text-align: center;
+  text:border;
+}
+
+  .resume-contaner{
+    display: flex;
+    gap: 104px;
+    margin: 10px 280px 10px 280px;
+  }
+
+  .experience-descriptin, .experience-sub-title{
+color: #757575;
+  }
+
+  .experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .cv{
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  footer{
+padding: 130px 230px;
+display: flex;
+gap: 100px;
+
+  }
+
+  .footer-column{
+    width: 50%;
+  }
+
+  footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 0.2px solid;
+  }
